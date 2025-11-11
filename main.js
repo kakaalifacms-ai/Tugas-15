@@ -18,7 +18,7 @@ function CekNilai() {
   }else if(Nilai >=51) {
    hasil= "Nilai C (Cukup Baik) "
  } else if (Nilai >= 0) {
-  hasil = "Nilai D (Kurang) "
+  hasil = "Nilai D (Kurang.) "
    
   }
 
