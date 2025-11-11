@@ -17,7 +17,11 @@ function CekNilai() {
    hasil= "Nilai B (Baik) "
   }else if(Nilai >=51) {
    hasil= "Nilai C (Cukup Baik) "
-}
+ } else if (Nilai >= 0) {
+  hasil = "Nilai D(Kurang) "
+   
+  }
+
 
 // tampilkan isi Vartebel "hasil ke elemen " hasil" di html
 document.getElementById('hasil').innerText=hasil
